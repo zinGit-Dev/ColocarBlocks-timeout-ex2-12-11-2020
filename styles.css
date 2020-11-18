@@ -1,19 +1,46 @@
-body{
+body {
     display: flex;
     justify-content: center;
+   
 }
 .stackContainer {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
     height: 600px;
     width: 500px;
     border: 2px solid black;
     box-shadow:  3px 3px 5px 4px rgb(61, 46, 46);
+   
+    
+    
 }
 
 .block {
+    display: flex;
+    order: -1;
     height: 60px;
     width: 100px;
-    border: 2px solid red;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: chocolate;
+    box-shadow:  1px 1px 1px 1px rgb(83, 46, 19);
+    
+   
 }
+button {
+    height: 60px;
+    width: 100px;
+   border-color: cadetblue;
+    background-color: cadetblue;
+    box-shadow:  2px 2px 2px 3px rgb(61, 46, 46);
+}
+.divButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
